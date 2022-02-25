@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+li,
+a,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*------------------------------Page-------------------------*/
+.page {
+  display: flex;
+  width: auto;
+  height: 100vh;
+}
+
+/*------------------------------Page Left--------------------*/
+.page___left {
+  flex: 150px;
+  height: 935px;
+  background: #191718;
+}
+
+.page___left .page__navbar-item {
+  width: 150px;
+  height: 44px;
+  border-bottom: 1px solid #5c5c5c;
+  color: #aaaaaa;
+}
+
+.page___left .page__navbar-item:hover {
+  background: #5c5c5c;
+  color: #efefef;
+  cursor: pointer;
+}
+
+.page__navbar-item .page__navbar--link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  display: inline-block;
+  margin: 14px 16px 11px;
+}
+
+/*------------------------------Page Right--------------------*/
+.page___right {
+  flex: 1510px;
+  height: 935px;
+}
+/*-------------------------Page right body--------------*/
+.page___right .page__body {
+  position: relative;
+  margin: 0px 129px;
+}
+
+.page__body .page__body-img {
+  background: url(./assets/logoNCC\ 1.png);
+  width: 310px;
+  height: 122px;
+  margin: 20px auto;
+}
+
+.page__body .page__body-container {
+  width: 1510px;
+  height: 210px;
+  background-color: #efefef;
+  margin: 30px auto;
+  align-items: center;
+  text-align: center;
+}
+
+.page__body-container .page__body--title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  padding-top: 38px;
+}
+
+.page__body-container .page__body--text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  width: 972px;
+  height: 95px;
+  margin: auto;
+  text-align: center;
+  text-indent: 4px;
+  padding-top: 18px;
+}
+
+.page__body-item {
+  display: grid;
+  grid-template-columns: 470px 470px 470px;
+  height: 252px;
+  column-gap: 50px;
+}
+
+.page__body-item .body__card-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 18px;
+}
+
+.page__body-item .body__card-img {
+  width: 128px;
+  height: 128px;
+  float: left;
+  margin-right: 14px;
+}
+
+.page__body-item .body__card-content {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/*-------------------------Page right bottom--------------*/
+.page__bottom {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 191px;
+  color: #3e3e3e;
+  padding: 30px;
+  border: 1px solid #dedede;
+}
+
+.page__bottom .page__bottom-text {
+  display: inline-block;
+  margin: 0 calc(129px - 32px);
+}
